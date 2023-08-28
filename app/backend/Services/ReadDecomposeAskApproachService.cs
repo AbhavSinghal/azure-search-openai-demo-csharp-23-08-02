@@ -29,7 +29,7 @@ internal sealed class ReadDecomposeAskApproachService : IApproachBasedService
         Answer:
         In-network deductibles are $500 for employees and $1000 for families [info1.txt] and Overlake is in-network for the employee plan [info2.pdf][info4.pdf].
 
-        Question: 'What happens in a performance review'
+        Question: 'Why is my compressor making loud noises?'
 
         Knowledge:
 
@@ -78,7 +78,7 @@ internal sealed class ReadDecomposeAskApproachService : IApproachBasedService
         Explain: I need to know the information of employee plan and Overlake in Bellevue.
 
         Knowledge: ''
-        Question: 'What happens in a performance review?'
+        Question: 'Why is my compressor making loud noises??'
         Your reply: I need to know what's performance review.
 
         Knowledge: 'Microsoft is a software company'
@@ -86,7 +86,7 @@ internal sealed class ReadDecomposeAskApproachService : IApproachBasedService
         Explain: I need to know the information of annual review time for employees in Microsoft.
 
         Knowledge: 'Microsoft is a software company'
-        Question: 'What is included in my Northwind Health Plus plan that is not in standard?'
+        Question: 'How do you troubleshoot Al003?'
         Explain: I need to know what's Northwind Health Plus Plan and what's not standard in that plan.
         ###
         Knowledge:

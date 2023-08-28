@@ -6,6 +6,7 @@ internal static class KeyVaultConfigurationBuilderExtensions
 {
     internal static IConfigurationBuilder ConfigureAzureKeyVault(this IConfigurationBuilder builder)
     {
+        // var azureKeyVaultEndpoint = "https://kv-teqky5u5jbsxs.vault.azure.net/";
         var azureKeyVaultEndpoint = Environment.GetEnvironmentVariable("AZURE_KEY_VAULT_ENDPOINT");
         ArgumentNullException.ThrowIfNullOrEmpty(azureKeyVaultEndpoint);
 

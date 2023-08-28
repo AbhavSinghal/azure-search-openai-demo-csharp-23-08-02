@@ -1,6 +1,6 @@
 ﻿@page "/voicechat"
+<PageTitle>Carrier Chatbot</PageTitle>
 
-<PageTitle>Voice Chat</PageTitle>
 
 <MudGrid Justify="Justify.Center">
     <MudItem id="replies" xs="12" Class="overflow-x-auto">
@@ -17,7 +17,7 @@
                             </MudText>
                             <MudText Typo="Typo.h1" Class="align-self-center"
                                      Style="font-family: monospace;">
-                                Blazor 📎 Clippy
+                                Refrigeration Chatbot
                             </MudText>
                             <MudText Typo="Typo.h2" Class="align-self-center">
                                 using voice chat.
@@ -78,11 +78,11 @@
                               Variant="Variant.Outlined" Adornment="Adornment.End"
                               AdornmentIcon="@Icons.Material.Filled.VoiceChat"
                               AdornmentColor="Color.Secondary" AutoFocus="true"
-                              Placeholder="Enter an Azure.AI.OpenAI chat prompt." Lines="3" Immediate="true"
+                              Placeholder="Ask your questions related to uploaded documents. Above are few sample templates.." Lines="3" Immediate="true"
                               HelperText="Use Shift + Enter for new lines."
                               OnKeyUp="@OnKeyUp" Clearable="true" Counter="1000" MaxLength="1000"
                               Disabled=@(_isRecognizingSpeech || _isReceivingResponse) IconSize="Size.Large"
-                              autocomplete="off" title="Enter an Azure.AI.OpenAI chat prompt." />
+                              autocomplete="off" title="Ask your questions related to uploaded documents. Above are few sample templates.." />
             </MudItem>
             <MudItem xs="0" lg="2" Class="d-flex align-self-center">
                 <MudGrid Justify="Justify.Center">
