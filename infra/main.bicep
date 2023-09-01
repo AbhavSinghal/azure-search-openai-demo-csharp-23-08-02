@@ -129,7 +129,7 @@ param webImageName string = ''
 var abbrs = loadJsonContent('./abbreviations.json')
 var resourceToken = toLower(uniqueString(subscription().id, environmentName, location))
 
-var baseTags = { 'azd-env-name': environmentName }
+var baseTags = { 'azd-env-name': environmentName ,'createdby':'abhav'}
 var updatedTags = union(empty(tags) ? {} : base64ToJson(tags), baseTags)
 
 // Organize resources in a resource group
